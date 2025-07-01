@@ -11,6 +11,7 @@
 ## Update .env file
 **Note:** Setup your database connection, mail credentials (I used Mailtrap for testing), queue connection and cache store to redis.
 
+```env
 CACHE_STORE=redis
 CACHE_PREFIX="cache:"
 REDIS_CLIENT=predis
@@ -32,6 +33,7 @@ MAIL_USERNAME=
 MAIL_PASSWORD=
 MAIL_FROM_ADDRESS="no-reply@multitenant.ng"
 MAIL_FROM_NAME="${APP_NAME}"
+```
 
 ## Recommended setup instructions
 > cp .env.example .env

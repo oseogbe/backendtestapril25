@@ -61,6 +61,4 @@ php artisan schedule:run && php artisan queue:work
 ```bash
 php artisan test
 ```
-```
 
----

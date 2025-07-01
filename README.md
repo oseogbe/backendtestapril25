@@ -36,19 +36,31 @@ MAIL_FROM_NAME="${APP_NAME}"
 ```
 
 ## Recommended setup instructions
-> cp .env.example .env
-> composer install
-> composer dump-autoload
-> php artisan migrate
-> php artisan db:seed 
 
-Recommendation: run _php artisan db:seed_ twice
+```bash
+cp .env.example .env
+composer install
+composer dump-autoload
+php artisan migrate
+php artisan db:seed
+```
+
+_Recommendation: run `php artisan db:seed` twice_
 
 ## Run application
-> php artisan serve
-> php artisan schedule:run && php artisan queue:work 
 
-Note: ensure your redis server is running
+```bash
+php artisan serve
+php artisan schedule:run && php artisan queue:work
+```
+
+> **Note:** Ensure your redis server is running
 
 ## Run tests
-> php artisan test
+
+```bash
+php artisan test
+```
+```
+
+---

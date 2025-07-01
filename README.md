@@ -29,8 +29,8 @@ MAIL_MAILER=smtp
 MAIL_SCHEME=null
 MAIL_HOST=sandbox.smtp.mailtrap.io
 MAIL_PORT=2525
-MAIL_USERNAME=
-MAIL_PASSWORD=
+MAIL_USERNAME=your-mailtrap-username
+MAIL_PASSWORD=your-mailtrap-password
 MAIL_FROM_ADDRESS="no-reply@multitenant.ng"
 MAIL_FROM_NAME="${APP_NAME}"
 ```

@@ -21,9 +21,9 @@ QUEUE_CONNECTION=redis
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
 DB_PORT=3306
-DB_DATABASE=multi_tenant
-DB_USERNAME=
-DB_PASSWORD=
+DB_DATABASE=expense-manager
+DB_USERNAME=your-db-username
+DB_PASSWORD=your-db-password
 
 MAIL_MAILER=smtp
 MAIL_SCHEME=null

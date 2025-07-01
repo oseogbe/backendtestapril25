@@ -12,13 +12,9 @@
 **Note:** Setup your database connection, mail credentials (I used Mailtrap for testing), queue connection and cache store to redis.
 
 CACHE_STORE=redis
-
 CACHE_PREFIX="cache:"
-
 REDIS_CLIENT=predis
-
 REDIS_PREFIX="multitenantexp:"
-
 QUEUE_CONNECTION=redis
 
 DB_CONNECTION=mysql
